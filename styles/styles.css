@@ -1,23 +1,55 @@
 .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+  height: 100vh;
+
+  background-color: var(--light-gray);
 }
 
 .card {
+  padding: 16px 16px 24px;
+  border-radius: 20px;
 
+  background: var(--white);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 320px;
 }
 
 .card__content {
+  padding: 16px;
 
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .card__image {
-
+  height: 288px;
+  width: 288px;
+  border-radius: 10px;
 }
 
 .card__title {
-  
+  text-align: center;
+
+  color: var(--dark-navy);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .card__text {
-  
+  text-align: center;
+
+  color: var(--grey);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
